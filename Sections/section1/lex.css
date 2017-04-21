@@ -1,0 +1,19 @@
+#progamming {
+	font-family:cursive;
+}
+
+#programming::first-letter{
+
+}
+
+#web {
+	font-family:serif;
+}
+
+#web::first-letter{
+	color:green;
+}
+
+h1 {
+	border-bottom: 2px dashed red;
+}

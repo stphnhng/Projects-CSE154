@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+	CSE 154 AD
+	Stephen Hung
+	HTML file for setting up basic structure for SpeedReading
+	website. 
+	The website takes in text from the user and displays them at 
+	varying speeds & sizes to facilitate better speed reading skills.
+-->
+<html>
+	<head>
+		<script type="text/javascript" src="speedreader.js"></script>
+		<title>SpeedReader</title>
+	</head>
+	
+	<body>
+		<h1 id="header">
+			SpeedReader
+		</h1>
+		<div id="reader" class="reader_medium">
+			
+		</div>
+		<div id="controls">
+			<fieldset>
+				<legend>Play Controls:</legend>
+				<button id="start_button" type="button">Start</button>
+				<button id="stop_button" type="button">Stop</button>
+			</fieldset>
+
+			<fieldset>
+				<legend>Speed:</legend>
+				<select>
+					<option value="500">50 wpm</option>
+					<option value="200">300 wpm</option>
+					<option value="171" selected="selected">350 wpm</option>
+					<option value="150">400 wpm</option>
+					<option value="133">450 wpm</option>
+					<option value="120">500 wpm</option>	
+				</select>
+			</fieldset>
+
+			<fieldset>
+				<legend>Size:</legend>
+				<label><input type="radio" name="size" value="Medium" checked> Medium</label>
+				<label><input type="radio" name="size" value="Big"> Big</label>
+				<label><input type="radio" name="size" value="Bigger"> Bigger</label>
+			</fieldset>
+		</div>
+		<div id="text_area">
+			<fieldset>
+				<legend>Input Text</legend>
+				<textarea id="input" rows="10" cols="80" ></textarea>
+			</fieldset>
+		</div>
+
+		<div id="validators">
+			<a href="https://webster.cs.washington.edu/validate-html.php">
+				<img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt="Valid HTML5" />
+			</a>
+			<a href="https://webster.cs.washington.edu/validate-css.php">
+				<img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="Valid CSS" />
+			</a>
+			<a href="https://webster.cs.washington.edu/jslint/?referer">
+				<img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="Valid CSS" />
+			</a>
+		</div>
+
+	</body>
+</html>

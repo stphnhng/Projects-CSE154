@@ -1,0 +1,45 @@
+/*
+	Stephen Hung
+	CSE 154 AD
+	The style sheet for index.html, it formats the page so that it looks
+	stylistically pleasing.
+*/
+
+#about-me-main{
+	background-color:#FFDAB9;
+}
+
+#about-me-main h2 {
+	text-align: center;
+}
+
+div {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	text-align:center;
+}
+
+#header {
+	background-color:#757575;
+}
+
+#header p{
+	text-align: center;
+}
+
+#header p.toc {
+	font-size: 25px;
+}
+
+.pie-gallery img {
+	min-height: 400px;
+	width: 525px;
+}
+
+#recipe-main {
+	background-color:rebeccapurple;
+	text-align: center;
+}

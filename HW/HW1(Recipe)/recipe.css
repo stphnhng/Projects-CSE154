@@ -1,0 +1,54 @@
+/*
+	Stephen Hung
+	CSE 154 AD
+	The style sheet for pie.html. This CSS page formats various elements in pie.html so 
+	that it is similar to a CSE 154 assignment.
+*/
+a{
+	color: #A4A400;
+}
+
+abbr{
+	text-decoration: underline;
+}
+
+blockquote {
+	background-color:#FFFFA8;
+	font-style:italic;
+}
+
+body{
+	background-image:url("https://webster.cs.washington.edu/images/silverware.jpg");
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+}
+
+h1,h2 {
+	color: #A4A400;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	font-size: 22pt;
+	letter-spacing: 0.25em;
+	text-decoration: underline;
+	text-align: center; 
+}
+
+h2 {
+	font-size: 18pt;
+	font-weight:normal;
+	text-align: left;
+}
+
+ins{
+	text-decoration:none;
+}
+
+span {
+	background-color: #F0F0F0;
+	text-align:center;
+}
+
+
+ul {
+	list-style-image:url('https://webster.cs.washington.edu/images/pie-icon.gif');
+}

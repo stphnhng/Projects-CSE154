@@ -1,0 +1,10 @@
+/*
+	Stephen Hung
+	CSE 154 AD
+	Cow.css is the CSS page for start.php and todolist.php.
+	It styles the error message.
+*/
+.own_error{
+
+	text-align: center;
+}

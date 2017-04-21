@@ -1,0 +1,91 @@
+/*
+	CSE 154 AD
+	Stephen Hung
+	CSS page for setting up style in speedreader.html
+*/
+body {
+
+	background-color: #EAF6F6;
+	font-family: Garamond, Serif;
+	font-size: 12pt;
+}
+
+button {
+
+	background-color:white;
+	border:solid gray 1px;
+	width:70px;
+}
+
+button:disabled{
+	background-color:lightgray;
+}
+
+#controls {
+	margin:0;
+}
+
+#controls, #reader, #text_area, h1{
+	text-align: center;
+}
+
+fieldset{
+	border:0;
+	display: inline;
+	vertical-align: top;
+}
+
+#input, #reader{
+	background-color: #FFFFFF;
+}
+
+#input {
+
+	border: solid gray 1px;
+}
+
+legend, #reader{
+	font-weight:bold;
+}
+
+legend {
+
+	border-bottom: solid 1px #8EBEBE;
+	padding: 2px;
+	text-align: left;	
+	width: 100%;
+}
+
+#reader {
+
+	border: 2px solid #8EBEBE;
+	border-radius: 5px;
+	font-family: monospace;
+	height: 100px;
+	line-height: 100px;
+	margin:auto;
+	width: 80%;
+}
+
+.reader_medium{
+	font-size:36pt;
+}
+
+.reader_big {
+	font-size:48pt;
+}
+
+.reader_bigger {
+	font-size:60pt;
+}
+
+#validators{ 
+	padding-left: 5px;
+	bottom:0;
+	left:0;
+	position:absolute;
+}
+
+#validators img {
+	width:70px;
+}

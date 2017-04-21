@@ -1,0 +1,98 @@
+body {
+	background-image:url("https://webster.cs.washington.edu/images/moviebg.png");
+	font-size:10pt;
+	font-family: Arial,Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+}
+
+body > h1 {
+	font-family: Georgia,"Times New Roman",serif;
+	font-size:24pt;
+	font-style:bold;
+	text-align: center;
+	text-shadow: 3px 3px #999999;
+}
+
+#general-overview {
+	background-color:#A2B964;
+	float:right;
+	font-size:10pt;
+	width:250px;
+}
+
+#general-overview dl {
+	padding-left:10pt;
+}
+
+#general-overview dl dt {
+	font-weight:bold;
+	margin-top:10pt;
+}
+
+#general-overview dl dd ul {
+	list-style:none;
+	padding-left:0;
+}
+
+#image-banner {
+	background-image:url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+	height:50px;
+	text-align: center;
+}
+
+#main-content-body {
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px gray;
+
+	width:800px;
+	margin: auto auto;
+	overflow:hidden;
+}
+
+#page-numbers {
+	clear:both;
+	text-align: center;
+}
+
+#review-area {
+	background-color:#EEEEEE;
+	float:left;
+	width:550px;
+}
+
+.header {
+	background-image:url("https://webster.cs.washington.edu/images/rottenlargebg.png");
+	color:red;
+	font-size:48pt;
+	font-weight:bold;
+}
+
+.header img {
+	vertical-align: bottom;
+}
+.review-column {
+	background-color:#EEEEEE;
+	float:left;
+	width:47%;
+	margin-left:2%;
+}
+
+.review {
+	background-color:#FFFFFF;
+	border: solid 2px #CCCCCC;
+	border-radius:20px;
+	font-size:10pt;
+	font-family:Georgia, "Times New Roman", serif;
+	margin:0;
+	overflow:hidden;
+	padding:8px;
+}
+
+.review-column img{
+	float:left;
+}
+
+.review-column img{
+	margin-right:5px;
+}

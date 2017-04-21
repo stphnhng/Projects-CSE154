@@ -1,0 +1,46 @@
+/*
+	Stephen Hung
+	CSE 154 AD
+	This CSS page is the style sheet for fifteen.html.
+	It's main use is getting the page to look nice and 
+	styling the tiles.
+*/
+body{
+
+	font-family: cursive;
+	font-size: 14pt;
+}
+
+body, .tile {
+	text-align: center;
+}
+
+#puzzlearea{
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	width: 400px;
+}
+
+.tile {
+	border: 5px solid black;
+	background-image: url('background.jpg');
+	display: inline;
+	font-size: 40pt;
+	height: 90px;
+	position: absolute;
+	width: 90px;
+}
+
+.hover{
+	border-color: red;
+	color: red;
+	cursor: pointer;
+}
+
+.winner {
+	color: blue;
+	font-size: 40pt;
+	font-family: monospace;
+}

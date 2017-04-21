@@ -1,0 +1,69 @@
+/*
+	Stephen Hung
+    CSE 154 AD
+    CSS file for common.php, search-kevin.php, search-all.php, and mymdp.php.
+    This provides the abilty to style different elements of the HTML in certain ways.
+
+*/
+
+#banner, #w3c{
+	/* Styling for banner & bottom, determines background image + color of words. */
+	background-image: url('banner-background.png');
+	color: white;
+	margin: 0;
+}
+
+body {
+	/* Sets the font family for every element in HTML body. */
+	font-family: Verdana,sans-serif;
+}
+
+body, #frame {
+	/* Sets the body & the div frame to have automatic margin on the side. */
+	margin: 0 auto;
+}
+
+body, table{
+	/* Sets the body & table to align their text to the center. */
+	text-align:center;
+}
+
+#banner, #w3c, legend{
+	/* Sets the banner, bottom, and legend to align their text to the left. */
+	text-align: left;
+}
+
+div {
+	/* Gives a padding & margin of 1em to all divs. */
+	padding: 1em;
+	margin: 1em;
+}
+
+#frame {
+	/* Gives the div frame a background color of white & width 90%. */
+	background-color: white;
+	width: 90%;
+	padding: 0;
+}
+
+form {
+	/* Sets margin & width of the forms and fieldsets. */
+	margin: 10px auto;
+	width: 24em;
+}
+
+table{
+	/* Sets the table's display & border collapse style. */
+	border-collapse: collapse;
+	display: inline-block;
+}
+
+td{
+	/* Gives a padding of 5x5px to each cell in the table. */
+	padding:5px 5px;
+}
+
+tbody tr:nth-child(odd), body {
+	/* Gives each odd #'ed row in the table a background color. */
+	background-color: #dad9d4;
+}

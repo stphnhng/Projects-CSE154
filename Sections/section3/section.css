@@ -1,0 +1,35 @@
+body     {
+	text-align: center; 
+}
+div      {
+	border: 1px dashed gray; 
+	padding: 0.5em; 
+	margin: 0.5em; 
+}
+#one     { 
+	background-color: #ff9999; 
+}
+#two     { 
+	background-color: yellow; 
+	float:left;
+}
+#three   { 
+	background-color: #ccffcc; 
+	float:right;
+}
+#four    { 
+	float:right;
+	background-color: #ccccff; 
+}
+#five    { 
+	float:left;
+	background-color: #ffdddd; 
+}
+#six     { 
+	background-color: #cccccc; 
+}
+#seven   { 
+	background-color: #9999ff; 
+	overflow:auto;
+	width:100%;
+}

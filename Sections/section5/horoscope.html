@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Horoscope Page</title>
+		
+		<!-- you should write this horoscope.js file to complete the exercise -->
+		<script src="horoscope.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<h1>My Horoscope Page</h1>
+		
+		<p>
+			Type your month and day of birth below and click the Go button to see your sign and horoscope.
+		</p>
+		
+		<div>
+			<input id="month" type="text" size="4" maxlength="2"pattern="[0-9]{1,2}" required="required" placeholder="month" autofocus="autofocus" /> /
+			<input id="day"   type="text" size="4" maxlength="2" pattern="[0-9]{1,2}" required="required" placeholder="day" />
+			<button id="go">Go!</button>
+		</div>
+		
+		<!-- your code should insert the results here -->
+		<div id="results"></div>
+	</body>
+</html>

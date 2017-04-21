@@ -1,0 +1,9 @@
+{
+    "type": "sftp",
+    "host": "webster.cs.washington.edu",
+    "username": "hungs3",
+    "password": "18118Stphn!",
+    "port": 22,
+    "remotePath": "/www/homes/students/hungs3/html",
+    "uploadOnSave": false
+}

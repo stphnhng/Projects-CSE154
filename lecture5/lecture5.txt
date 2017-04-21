@@ -1,0 +1,5 @@
+box model works on inline elements but other aspects (width) may not work on it.
+
+Vertical alignment, (example: img) used to align element with other elements in the same containing parent element.
+	- for instance, img is in p tag. vertical alignment for img would make it align with elements in the P tag.
+

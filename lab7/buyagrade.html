@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buy Your Way to a Better Education!</title>
+		<link href="https://www.cs.washington.edu/education/courses/cse154/14sp/labs/4/buyagrade.css" type="text/css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<h1>Buy Your Way to a Better Education!</h1>
+
+		<p>
+			The rough economy, along with recent changes in University of Washington policy, now allow us to offer grades for money.  That's right!  All you need to get a 4.0 in this course is cold, hard, cash.
+		</p>
+		
+		<hr />
+		
+		<h2>Give Us Your Money</h2>
+		<form action="sucker.php" method="post">
+			<div>
+				<label>
+					<strong>Name</strong>
+					<input type="text" name="name"= value="">
+				</label>
+			</div>
+			<div>
+				<label>
+					<strong>Section</strong>
+					<select name="section">
+						<option value="MA">MA</option>
+						<option value="MB">MB</option>
+						<option value="MC">MC</option>
+						<option value="MD">MD</option>
+						<option value="ME">ME</option>
+						<option value="MF">MF</option>
+						<option value="MG">MG</option>
+						<option value="MH">MH</option>
+					</select>
+				</label>
+			</div>	
+			<div>
+				<strong>Credit Card Type</strong>	
+				<label>
+					<input type="radio" name="credit_card" value="visa">Visa
+				</label>
+				<label>
+					<input type="radio" name="credit_card" value="mastercard">MasterCard
+				</label>
+				<label>
+					<input type="radio" name="credit_card" value="americanexpress">American Express
+				</label>
+			</div>
+			<div>
+				<label>
+					<strong>Credit Card Number</strong>
+					<input type="text" name="number" value="">
+				</label>
+			</div>
+			<div>
+				<input type="submit" value="I am a giant sucker.">
+			</div>
+		</form>
+	</body>
+</html>

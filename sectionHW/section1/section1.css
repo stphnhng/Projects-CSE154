@@ -1,0 +1,17 @@
+/* comment header */
+body {
+    background-color: white;
+    color: red;
+}
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+li {
+    font-family: "Times New Roman", serif;
+}

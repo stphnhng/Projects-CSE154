@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SpeedReader</title>
+		<link href="speedreader.css" type="text/css" rel="stylesheet" />
+		<script src="speedreader.js"></script>
+	</head>
+	<body>
+		<h1 id="title">SpeedReader</h1>
+			<div id="speeder"> </div>
+			<div id="controls">
+				<fieldset> <!-- play control buttons -->
+					<legend>Play Controls:</legend>
+						<button id="start" type = "button">Start</button>
+						<button id="stop" type = "button">Stop</button>
+				</fieldset> 
+
+				<fieldset> <!-- drop down menu for wpm -->
+					<legend>Speed:</legend>
+						<select id = "speed">
+							<option value = "300">200 wpm</option>
+							<option value = "200">300 wpm</option>
+							<option value = "171" selected="selected">350 wpm</option>
+							<option value = "150">400 wpm</option>
+							<option value = "133">450 wpm</option>
+							<option value = "120">500 wpm</option>
+						</select>
+				</fieldset>
+
+				<fieldset> <!-- radio buttons for size --> 
+					<legend>Size:</legend>
+						<input type= "radio" checked="checked" name="size" id="medium" value = "36pt"/> 
+						<label for="medium">Medium</label>
+						<input type= "radio" name="size" id="big" value = "48pt"/> 
+						<label for="big">Big</label>
+						<input type= "radio" name="size" id="bigger" value = "60pt"/>  
+						<label for="bigger">Bigger</label>
+				</fieldset>
+
+				<div id="input"> <!--text input area--> 
+					<fieldset>
+						<legend>Input Text</legend>
+						<textarea id="textarea" rows="10" cols="80"></textarea>
+					</fieldset>
+				</div>
+			</div>
+
+	</body>
+</html>

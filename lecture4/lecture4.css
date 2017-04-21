@@ -1,0 +1,23 @@
+.linksarea {
+	/* every single element with class linksarea */
+	background-color:purple;
+}
+
+/* Do not overlap classes (only works on one type of element at a type) */
+
+.menu {
+	text-decoration: underline;
+}
+
+
+a.linksarea {
+	/* every single a element with links area class */
+	background-color:red;
+}
+
+.linksarea a {
+	/* all a elements in the parent element with links area class */
+
+	color: greenyellow;
+}
+
